@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4;  
+}
+
+body{
+    background-color:#121212;
+ }
+
+h4, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.menu {
+    display: block;
+    margin: -45px 15px 0 auto;
+    width: 30px;
+    height: 25px;
+}
+
+#name {
+    padding: 18px;
+    letter-spacing: 3px;
+}
+
+nav {
+    height: 70px;
+}
+
+.links {
+    overflow: hidden;
+    height: 0;
+}
+
+ul{
+    list-style-type: none; 
+    line-height: 40px;
+    padding-top: 40px;
+    position: relative;
+    left: 60px; 
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+}
+
+.show-links {
+    top: 50px;
+    right: 20px;
+    position: absolute;
+    z-index: 1;
+    height: 50vh;
+    width: 30vh;
+    background-color: #FFB95F;
+    border-radius: 10px;
+}
+
+/*Hide the tablet nav-bar on mobile*/
+.tab-links {
+    display: none;
+}
+/*Hide the tablet nav-bar on mobile*/
+
+.line{
+    width: 50px;
+    height: 0.5px;
+    background-color: #000000;
+}
+
+.close-icon{
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+    left: 130px;
+    top: 25px;
+    position: relative; 
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFB95F;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 100;
+}
+
+p{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #f4f4f4;  
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.container p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 14px auto 0px auto;
+}
+
+.circle {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #FFB95F;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.two {
+    margin-top: 40px;
+}
+
+.container a {
+    color: #f4f4f4;  
+    text-decoration: none;
+}
+
+.container a:visited {
+    color: #f4f4f4;  
+    
+}
+
+h5, .container a:hover {
+    font-weight: 100;
+    color: #FFB95F;
+    font-family: 'Poppins', sans-serif;
+}
+
+h5 {
+    margin: 50px 0 15px 0;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icono {
+    margin: 0 15px;
+}
+
+.icon-image{
+    width: 23px;
+    height: 23px;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    color: #f4f4f4;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*Make footer height stick to the bottom*/
+footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 2rem; 
+}
+
+/*Tablet view*/
+@media only screen and (min-width: 620px) {
+    .menu {
+        display: none;
+    }
+
+    #name {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .tab-links ul li a{
+        color: #fff;
+        margin: 0 20px;
+        font-size: 17px;
+    }
+
+    .tab-links{
+        display: block;
+        position: absolute;
+        /*top: -22px;*/
+        top: -1.5rem;
+        left: 20rem;
+    }
+
+    .tab-links ul {
+        display: flex;    
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    h5{
+        font-size: 17px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .big-circle {
+        padding: 0px 40px 0px 40px;
+    }
+
+    
+    .two {
+        margin-top: 0px;
+    }
+
+    main, h2 {
+        margin-top: 50px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+}
+
+
+/*Desktop view*/
+@media only screen and (min-width: 990px) {
+    .tab-links{
+        left: 50rem;
+    }
+}
