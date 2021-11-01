@@ -11,7 +11,7 @@
 body{
     height: 100vh;
     background-color:#121212;
-    overflow: hidden !important;
+    overflow: hidden;
 }
 
 h4, h2 {
@@ -61,7 +61,7 @@ li a {
 }
 
 .show-links {
-    top: 50px;
+    top: 60px;
     right: 20px;
     position: absolute;
     z-index: 2;
