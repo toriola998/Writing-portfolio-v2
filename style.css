@@ -9,8 +9,9 @@
 }
 
 body{
-   height: 100vh;
+    height: 100vh;
     background-color:#121212;
+    overflow: hidden !important;
 }
 
 h4, h2 {
@@ -153,7 +154,7 @@ footer {
         overflow: visible;
     }
 
-    main>div {
+    main > div {
         width: 75vw;
     }
 
@@ -177,7 +178,6 @@ footer {
         font-size: 15px;
     }
 }
-
 
 @media only screen and (min-width: 1000px) {
     .intro p{
