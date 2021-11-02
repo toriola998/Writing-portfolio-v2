@@ -14,7 +14,7 @@ body{
 }
 
 article{
-    margin: 30px;
+    margin: 30px 20px;
 }
 
 p{
@@ -41,7 +41,14 @@ h6 {
 /*Tablet view*/
 @media only screen and (min-width: 760px) {
     article {
-        margin: 0px 90px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin: unset;
+    }
+
+    article> div{
+        width: 70vw; 
     }
 
     p {
@@ -51,10 +58,10 @@ h6 {
 
 /*Desktop view*/
 @media only screen and (min-width: 990px) {
-    article{
-        margin: 0px 250px;
+    article> div{
+        width: 60vw;
     }
-    
+
     h5 {
         font-size: 22px;    
     }
