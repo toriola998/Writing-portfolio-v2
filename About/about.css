@@ -30,6 +30,11 @@ article{
     margin: 30px 20px;
 }
 
+#lagoslink {
+    color: #dc851f;
+    text-decoration: none;
+}
+
 p{
     font-family: 'Alegreya Sans', sans-serif;
     padding: 10px;
