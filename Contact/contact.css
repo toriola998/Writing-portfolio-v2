@@ -1,6 +1,11 @@
-
-.container {
+  
+section {
     margin-top: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .container p{
@@ -21,8 +26,7 @@
     border: 2px solid #FFB95F;
     border-radius: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .two {
@@ -37,6 +41,11 @@
 .container a:visited {
     color: #f4f4f4;  
     
+}
+
+.icons>div, .icons {
+    display: flex;
+    justify-content: center;
 }
 
 h5, .container a:hover {
@@ -56,8 +65,13 @@ h5 {
 
 /*Tablet view*/
 @media only screen and (min-width: 620px) {
-   
-
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    
     h2 {
         font-size: 27px;
     }
@@ -69,6 +83,7 @@ h5 {
     .container {
         display: flex;
         justify-content: center;
+        margin-bottom: 5rem;
     }
 
     .big-circle {
@@ -79,12 +94,10 @@ h5 {
         margin-top: 0px;
     }
 
-    main, h2 {
+    h2 {
         margin-top: 50px;
     }
 
-    footer p {
-        font-size: 15px;
-    }
+
 
 }
