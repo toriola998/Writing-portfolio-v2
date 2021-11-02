@@ -1,29 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: hsl(0, 0%, 100%); 
-     
+    color: hsl(0, 0%, 100%);    
 }
 
 body{
     background-color: #EEEEEE;   
-}
-
- .menu {
-    display: block;
-    margin: -45px 15px 0 auto;
-    width: 30px;
-    height: 25px;
-}
-
-#name {
-    padding:18px;
-    letter-spacing: 3px;
-    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -31,77 +11,20 @@ nav {
     background-color:#121212;
 }
 
-.links {
-    overflow: hidden;
-    height: 0;
-}
-
-ul{
-    list-style-type: none; 
-    line-height: 40px;
-    padding-top: 40px;
-    position: relative;
-    left: 60px;  
-}
-
-li a {
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 500;
-}
-
-.show-links {
-    top: 50px;
-    right: 20px;
-    position: absolute;
-    z-index: 1;
-    height: 50vh;
-    width: 30vh;
-    background-color: #FFB95F;
-    border-radius: 10px;
-}
-
-/*Hide the tablet nav-bar on mobile*/
-.tab-links {
-    display: none;
-}
-/*Hide the tablet nav-bar on mobile*/
-
-.line{
-    width: 50px;
-    height: 0.5px;
-    background-color: #000000;
-}
-
-.close-icon{
-    width: 20px;
-    height: 20px;
-    z-index: 2;
-    left: 130px;
-    top: 25px;
-    position: relative;
-}
-
-
-
 .box {
     display: block;
     width: 90vw;
     min-height: 360px;
     background-color: #fff;
-   /* margin: auto;*/
     margin: 1rem;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
-
 }
 
 .box img {
     width: 80vw;
     min-height: 180px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-top: 20px;
 }
 
@@ -128,51 +51,14 @@ h6 {
     padding: 5px 15px;
 }
 
-footer span p {
-    font-size: 12px;
-    text-align: center;
-    color: #f4f4f4;
-    font-family: 'Alegreya Sans', sans-serif;
-    padding-top: 15px;
-}
-
 footer {
     background-color:#121212;
     height: 50px;
 }
 
-/*Make footer height stick to the bottom*
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;   
-}*/
-
 /*Tablet screen*/
 @media only screen and (min-width: 660px) {
-    .menu {
-        display: none;
-    }
-
-    .tab-links ul li a{
-        color: #fff;
-        margin: 0 20px;
-        font-size: 17px;
-    }
-
-    .tab-links{
-        display: block;
-        position: absolute;
-        /*top: -22px;*/
-        top: -1.5rem;
-        left: 20rem;
-    }
-
-    .tab-links ul {
-        display: flex;    
-    }
-
-   .container {
+    .container {
         display: flex;
         flex-wrap: wrap;
         justify-content:center;
@@ -187,34 +73,13 @@ footer {
         width: 35vw;
         min-height: 180px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin:0 auto;
         padding-top: 20px;
-    }
-
-    #name{
-        font-size: 20px;
-        letter-spacing: 3px;
-    }
-
-    footer span p {
-        font-size: 15px;
-        
     }
 }
 
 /*Laptop screen*/
   @media only screen and (min-width: 970px) {
-    .tab-links{
-        left: 50rem;
-    }
-
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-
    .box {
         width: 25vw;
         min-height: 380px; 
