@@ -42,9 +42,8 @@ nav {
 }
 
 .box:hover {
-    box-shadow: 6px 6px 30px #ebebeb, 
-    -6px -6px 30px #ffffff;
     cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 h6 {
