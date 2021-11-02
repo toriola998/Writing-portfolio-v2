@@ -4,6 +4,12 @@
 
 body {
     background-color: #EEEEEE;
+    height: auto;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
@@ -35,6 +41,7 @@ p{
 footer {
     background-color:#121212;
     height: 50px;
+    position: unset;
 }
 
 @media only screen and (min-width: 760px) {
@@ -60,4 +67,9 @@ footer {
     p{
         font-size: 18px;
     }
+
+    footer {
+        position: absolute;
+    }
+    
 }

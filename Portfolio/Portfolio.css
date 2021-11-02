@@ -4,6 +4,8 @@
 
 body{
     background-color: #EEEEEE;   
+    height: 100%;
+    overflow: scroll;
 }
 
 nav {
@@ -54,6 +56,11 @@ h6 {
 footer {
     background-color:#121212;
     height: 50px;
+    position: unset;
+}
+
+footer p {
+    padding: 10px;
 }
 
 /*Tablet screen*/
