@@ -1,95 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     color: #fff;
 }
 
 body {
     background-color: #EEEEEE;
-    /*position: relative;*/
-    font-family: 'Alegreya Sans', sans-serif;
-}
-
-.menu {
-    display: block;
-    margin: -45px 15px 0 auto;
-    width: 30px;
-    height: 25px;
-}
-
-#name {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    padding: 18px;
-    letter-spacing: 3px;
 }
 
 nav {
-    height: 70px;
     background-color:#121212;
 }
 
-.links {
-    overflow: hidden;
-    height: 0;
-}
-
-ul{
-    list-style-type: none; 
-    line-height: 40px;
-    padding-top: 40px;
-    position: relative;
-    left: 60px;
-}
-
 li a {
-    text-decoration: none;
     color: #000000;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 500;
 }
 
-.show-links {
-    top: 50px;
-    right: 20px;
-    position: absolute;
-    z-index: 1;
-    height: 50vh;
-    width: 30vh;
-    background-color: #FFB95F;
-    border-radius: 10px;
-}
-
-/*Hide the tablet nav-bar on mobile*/
-.tab-links {
-    display: none;
-}
-/*Hide the tablet nav-bar on mobile*/
-
-
-.line{
-    width: 50px;
-    height: 0.5px;
-    background-color: #000000;
-}
-
-.close-icon{
-   width: 20px;
-   height: 20px;
-   z-index: 2;
-   left: 130px;
-   top: 25px;
-   position: relative
-}
 
 h2 {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
-    /*padding-top: 30px;*/
     font-weight: 100;
     color: #000;
 }
@@ -99,67 +27,17 @@ article{
 }
 
 p{
+    
+    font-family: 'Alegreya Sans', sans-serif;
     padding: 10px;
     line-height: 1.7;
     word-spacing: 2px;
     color: #000;
 }
 
-footer p {
-    height: 2rem;
-    font-size: 12px;
-    text-align: center;
-    color: #f4f4f4;
-    font-family: 'Alegreya Sans', sans-serif;
-}
-
-footer {
-    background-color:#121212;
-    height: 50px;
-}
-
-
-@media only screen and (min-width: 850px) {  
-/*Make footer height stick to the bottom*/
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%; 
-}
-}
-
-
-
 @media only screen and (min-width: 760px) {
-    .menu {
-        display: none;
-    }
-
-    #name{
-        font-size: 20px;
-        letter-spacing: 3px;
-    }
-
     h2 {
         margin-top: 2em;
-    }
-
-    .tab-links ul li a{
-        color: #fff;
-        margin: 0 20px;
-        font-size: 17px;
-    }
-
-    .tab-links{
-        display: block;
-        position: absolute;
-        /*top: -22px;*/
-        top: -1.5rem;
-        left: 20rem;
-    }
-
-    .tab-links ul {
-        display: flex;    
     }
 
     article {
@@ -178,14 +56,6 @@ footer {
 
 /*Desktop view*/
 @media only screen and (min-width: 990px) {
-    .tab-links{
-        left: 50rem;
-    }
-
-    article{
-        margin: 0px 250px;
-    }
-    
     p{
         font-size: 18px;
     }
